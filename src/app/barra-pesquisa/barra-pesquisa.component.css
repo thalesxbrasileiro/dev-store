@@ -1,0 +1,32 @@
+.search-form{
+    height: 44px;
+    display: flex;
+}
+
+.search-form input{
+    box-sizing: border-box;
+    height: 56px;
+    padding: 5px 8px 0 14px;
+    flex:1;
+    background-color: rgb(242, 239, 239);
+    color: var(--gray);
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all -3s ease-in-out;
+    font-size: 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.search-form button{
+    width: 56px;
+    height: 56px;
+    background-color: var(--blue);
+    border:none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    font-size: 22px;
+}
