@@ -1,27 +1,49 @@
-# ProjetoAngular
+# E-Commerce em Angular - StartByCapgemini
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+Este é um projeto desenvolvido durante o programa StartByCapgemini da Capgemini, que consiste em um e-commerce com funcionalidades de pesquisa, adição e remoção de produtos no carrinho, simulando uma experiência de compra. Além disso, o site conta com uma página de contato que inclui um formulário com requisitos de preenchimento para liberar o botão de envio.
 
-## Development server
+### Endereço
+https://thalesxbrasileiro.github.io/dev-store
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Funcionalidades
+- Pesquisar produtos: Permite ao usuário pesquisar por produtos disponíveis no catálogo da loja.
 
-## Code scaffolding
+- Adicionar e Remover do Carrinho: Permite adicionar produtos ao carrinho de compras e, se necessário, removê-los antes de finalizar a compra.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Simulação de Compra: Proporciona uma experiência realista de compra ao adicionar produtos ao carrinho e gerenciar suas quantidades.
 
-## Build
+- Página de Contato: Disponibiliza um formulário para contato que possui requisitos de preenchimento para liberação do botão de envio.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Tecnologias Utilizadas
+Angular: Um framework de desenvolvimento de aplicações web em JavaScript/TypeScript mantido pelo Google.
 
-## Running unit tests
+- HTML/CSS: Utilizados para estruturação e estilização do site.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- TypeScript: Linguagem utilizada no desenvolvimento do projeto Angular.
 
-## Running end-to-end tests
+### Pré-requisitos
+Antes de executar o projeto, certifique-se de ter instalado as seguintes ferramentas:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Node.js: https://nodejs.org (v14 ou superior)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Como Executar o Projeto
+1. Clone este repositório em sua máquina local:
+```
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
+2. Acesse a pasta do projeto:
+```
+cd nome-do-repositorio
+```
+3. Instale as dependências:
+```
+npm install
+```
+4. Inicie a aplicação:
+```
+ng serve
+```
+5. Acesse a aplicação em seu navegador através do endereço: 
+```
+http://localhost:4200/
+```
